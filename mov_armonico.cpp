@@ -13,7 +13,7 @@ double *alpha=new double[sizee];
 ofstream archivo;
 
 void pendulo(){
-	archivo.open("datos.txt");
+	archivo.open("datos.ods");
 	double l=1;
 	double delta=0.01;
 	w[0]=0;
@@ -49,7 +49,7 @@ void resorte(){
 }
 int main(){
 	pendulo();
-	//resorte();
+	resorte();
 	archivo.close();
 	delete tetha,w,alpha,v,a,x;
 	return 0;
