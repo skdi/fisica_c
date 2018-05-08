@@ -1,11 +1,7 @@
-  #include <iostream>
+#include <iostream>
 #include <math.h>
 #include <cmath>
 #include <fstream>
-#define g 9.8
-#define ep 2.71818281
-#define pi 3.14159265
-#define sizee 1000
 using namespace std;
 ofstream archivo;
 
